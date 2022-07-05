@@ -42,9 +42,9 @@ export const Navbar: FC = () => {
 						<a target="_blank" href="https://www.linkedin.com/in/bimasena/" rel="noopener noreferrer">
 							<Button color='black' variant='link' size='md' key='linkedin'>linkedin</Button>
 						</a>
-						<Link href="/" passHref>
+						<a target="_blank" href="https://drive.google.com/file/d/1Z57WTSwQIQe-ZxtrbE3v-KeqfhHkkNSQ/view?usp=sharing" rel="noopener noreferrer">
 							<Button color='black' variant='link' size='md' key='resume'>resume</Button>
-						</Link>
+						</a>
 					</ButtonGroup>
 			</Flex>
         </Box>
