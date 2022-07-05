@@ -51,7 +51,7 @@ const projectData: Project[] = [
 		alt: "Photo of Snippetbox Website",
 		link: "https://github.com/bimasenaputra/snippetbox",
 		description: "A website where user can easily share their text note and set its expiracy. Using Go and MySQL, \
-					i successfully built a paging mechanism and search engine using Go and MySQL to search and access \
+					i successfully built a paging mechanism and search engine to search and access \
 					any 10,000+ shared text notes on the website in under 1 second.",
 		technologies: ["Go", "MySQL"],
 	},
