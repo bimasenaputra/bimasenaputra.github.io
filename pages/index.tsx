@@ -86,11 +86,11 @@ const Home: NextPage<{projects: Project[]}> = ({ projects }) => {
             Hi👋, I&apos;m Bima - A Software Engineer
           </Heading>
           <Text>
-            I&apos;m a rising junior studying computer science 💻 at Universitas Indonesia. I have deep interest in the application of machine learning such as
-            autonomous vehicle 🚗 and chatbot 🤖 and also other areas of computer science such as 3D rendering and distributed, peer-to-peer technologies 🕸️.
+            I&apos;m a junior studying computer science 💻 at Universitas Indonesia. I have deep interest in the application of machine learning such as
+            autonomous vehicle 🚗 and chatbot 🤖 and also other areas of computer science such as 3D rendering and distributed storage 🕸️.
             <br/><br/>
-            Right now, i&apos;m working on a project that try to utilize blockchain to automatically claim payout in healthcare realms with smart contract.
-            I also plan to build a small scale peer-to-peer framework in the future. If anyone interested in joining my project or idea, i&apos;d 
+            Right now, i&apos;m working for Sagara Technology to help them build the backend part for their admin and customer part of car parts store website.
+            I also plan to build (or maybe join) a distributed storage framework project in the future. If anyone interested in joining my project or idea, i&apos;d 
             be happy to welcome you 👐. I&apos;m also open to any project out there where i can collaborate and contribute. Just text me! 📧 
           </Text>
           <Link href="mailto:bimasenaputra@gmail.com" passHref>
@@ -98,7 +98,7 @@ const Home: NextPage<{projects: Project[]}> = ({ projects }) => {
               Send me an email
             </Button>
           </Link>
-          <Link href="https://sarahah.top/u/5425861314130796" passHref>
+          <Link href="https://named-foundry-358214.as.r.appspot.com/snippet/create" passHref>
             <Button variant="link">
              Or send anonymous message instead
             </Button>
@@ -107,7 +107,7 @@ const Home: NextPage<{projects: Project[]}> = ({ projects }) => {
 
         <Box mb="50px">
           <Heading as="h1" mb="2rem">
-            My Project
+            My Projects
           </Heading>
           <SimpleGrid columns={[1, 1, 1, 2]} spacingX="30px" spacingY="15px"> 
             {projects.map((project) => (

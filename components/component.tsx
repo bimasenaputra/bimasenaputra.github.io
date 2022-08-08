@@ -25,6 +25,12 @@ import {
 	GoogleMapsIcon,
 	GoIcon,
 	MySQLIcon,
+	LaravelIcon,
+	VueIcon,
+	RedisIcon,
+	MongoDBIcon,
+	DockerIcon,
+	GCPIcon,
 } from './icon';
 import type { Project } from '../lib/projects';
 
@@ -42,7 +48,7 @@ export const Navbar: FC = () => {
 						<a target="_blank" href="https://www.linkedin.com/in/bimasena/" rel="noopener noreferrer">
 							<Button color='black' variant='link' size='md' key='linkedin'>linkedin</Button>
 						</a>
-						<a target="_blank" href="https://drive.google.com/file/d/1Z57WTSwQIQe-ZxtrbE3v-KeqfhHkkNSQ/view?usp=sharing" rel="noopener noreferrer">
+						<a target="_blank" href="https://drive.google.com/file/d/1NQJy7hC17AOJ9Twk3bttV3nTX-aZfEx5/view?usp=sharing" rel="noopener noreferrer">
 							<Button color='black' variant='link' size='md' key='resume'>resume</Button>
 						</a>
 					</ButtonGroup>
@@ -111,6 +117,18 @@ export const TechIcon: FC<{children: string}> = ({children}) => {
 		return <GoIcon/>
 	} else if (children === "MySQL") {
 		return <MySQLIcon/>
+	} else if (children === "Laravel") {
+		return <LaravelIcon/>
+	} else if (children === "Vue") {
+		return <VueIcon/>
+	} else if (children === "Redis") {
+		return <RedisIcon/>
+	} else if (children === "MongoDB") {
+		return <MongoDBIcon/>
+	} else if (children === "Docker") {
+		return <DockerIcon/>
+	} else if (children === "GCP") {
+		return <GCPIcon/>
 	} else {
 		return <Text>{children}</Text>
 	}

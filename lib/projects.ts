@@ -46,14 +46,24 @@ const projectData: Project[] = [
 		type: "Website",
 		name: "Snippetbox",
 		company: "Side Project",
-		duration: "1 month",
+		duration: "2 months",
 		photo: "/snippetbox.png",
 		alt: "Photo of Snippetbox Website",
-		link: "https://github.com/bimasenaputra/snippetbox",
-		description: "A website where user can easily share their text note and set its expiracy. Using Go and MySQL, \
-					i successfully built a paging mechanism and search engine to search and access \
-					any 10,000+ shared text notes on the website in under 1 second.",
-		technologies: ["Go", "MySQL"],
+		link: "https://named-foundry-358214.as.r.appspot.com/",
+		description: "Built a text sharing web app using Go and MySQL with search engine and paging functionality where users can search and access any shared text.",
+		technologies: ["Go", "MySQL", "GCP"],
+	},
+	{
+		id: 4,
+		type: "Website",
+		name: "Blog",
+		company: "Side Project",
+		duration: "2 months",
+		photo: "/blog.png",
+		alt: "Photo of Blog Website",
+		link: "https://fontstream.herokuapp.com/",
+		description: "Developed a blog web app, allowing users to post a blog with text, image and styled text, using Laravel backend and Vue frontend.",
+		technologies: ["Laravel", "Vue", "Docker"],
 	},
 ];
 
