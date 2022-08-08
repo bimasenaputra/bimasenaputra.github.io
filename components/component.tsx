@@ -28,7 +28,6 @@ import {
 	LaravelIcon,
 	VueIcon,
 	RedisIcon,
-	MongoDBIcon,
 	DockerIcon,
 	GCPIcon,
 } from './icon';
@@ -123,8 +122,6 @@ export const TechIcon: FC<{children: string}> = ({children}) => {
 		return <VueIcon/>
 	} else if (children === "Redis") {
 		return <RedisIcon/>
-	} else if (children === "MongoDB") {
-		return <MongoDBIcon/>
 	} else if (children === "Docker") {
 		return <DockerIcon/>
 	} else if (children === "GCP") {
