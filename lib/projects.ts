@@ -50,7 +50,8 @@ const projectData: Project[] = [
 		photo: "/snippetbox.png",
 		alt: "Photo of Snippetbox Website",
 		link: "https://named-foundry-358214.as.r.appspot.com/",
-		description: "Built a text sharing web app using Go and MySQL with search engine and paging functionality where users can search and access any shared text.",
+		description: "Built a text sharing web app using Go and MySQL with search engine and paging functionality where users can search and \
+		 			access any shared text.",
 		technologies: ["Go", "MySQL", "GCP"],
 	},
 	{
@@ -64,6 +65,21 @@ const projectData: Project[] = [
 		link: "https://fontstream.herokuapp.com/",
 		description: "Developed a blog web app, allowing users to post a blog with text, image and styled text, using Laravel backend and Vue frontend.",
 		technologies: ["Laravel", "Vue", "Docker"],
+	},
+	{
+		id: 5,
+		type: "Program",
+		name: "Biomedical Search Engine",
+		company: "Universitas Indonesia",
+		duration: "3 months",
+		photo: "/search.png",
+		alt: "Photo of Biomedical Search Engine",
+		link: "https://github.com/bimasenaputra/search-engine",
+		description: "Built a search engine from scratch using Python programming language. \
+		NF Corpus is used for this search engine, but the search engine can be used with any collections of documents. \
+		The seach engine is built on the inverted index architecture with fetching and ranking on top of the inverted index. \
+		This search engine will return the most relevant documents based on user query.",
+		technologies: ["HF"],
 	},
 ];
 

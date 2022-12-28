@@ -86,12 +86,12 @@ const Home: NextPage<{projects: Project[]}> = ({ projects }) => {
             Hi👋, I&apos;m Bima - A Software Engineer
           </Heading>
           <Text>
-            I&apos;m a junior studying computer science 💻 at Universitas Indonesia. I have deep interest in the application of machine learning such as
-            autonomous vehicle 🚗 and chatbot 🤖 and also other areas of computer science such as 3D rendering and distributed storage 🕸️.
+            I&apos;m a junior studying computer science 💻 at Universitas Indonesia. I have deep interest in tiny machine learning 🤖 and 3D rendering 🌐.
+            I was working for Sagara Technology to help them build the backend part for their admin and customer part of car parts store website.
             <br/><br/>
-            Right now, i&apos;m working for Sagara Technology to help them build the backend part for their admin and customer part of car parts store website.
-            I also plan to build (or maybe join) a distributed storage framework project in the future. If anyone interested in joining my project or idea, i&apos;d 
-            be happy to welcome you 👐. I&apos;m also open to any project out there where i can collaborate and contribute. Just text me! 📧 
+            I plan to build (or join) an edge computer vision platform project and personalized question answering service in the future. 
+            If anyone interested in joining my project or idea, i&apos;d be happy to welcome you 👐. I&apos;m also open to any project out there 
+            where i can collaborate and contribute. Just text me! 📧 
           </Text>
           <Link href="mailto:bimasenaputra@gmail.com" passHref>
             <Button leftIcon={<EmailIcon />} colorScheme='teal' variant='outline'>

@@ -30,6 +30,7 @@ import {
 	RedisIcon,
 	DockerIcon,
 	GCPIcon,
+	HFIcon,
 } from './icon';
 import type { Project } from '../lib/projects';
 
@@ -46,9 +47,6 @@ export const Navbar: FC = () => {
 						</a>
 						<a target="_blank" href="https://www.linkedin.com/in/bimasena/" rel="noopener noreferrer">
 							<Button color='black' variant='link' size='md' key='linkedin'>linkedin</Button>
-						</a>
-						<a target="_blank" href="https://drive.google.com/file/d/1NQJy7hC17AOJ9Twk3bttV3nTX-aZfEx5/view?usp=sharing" rel="noopener noreferrer">
-							<Button color='black' variant='link' size='md' key='resume'>resume</Button>
 						</a>
 					</ButtonGroup>
 			</Flex>
@@ -126,6 +124,8 @@ export const TechIcon: FC<{children: string}> = ({children}) => {
 		return <DockerIcon/>
 	} else if (children === "GCP") {
 		return <GCPIcon/>
+	} else if (children === "HF") {
+		return <HFIcon/>
 	} else {
 		return <Text>{children}</Text>
 	}
