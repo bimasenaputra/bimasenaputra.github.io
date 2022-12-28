@@ -103,8 +103,8 @@ export const GCPIcon: FC = () => {
 
 export const HFIcon: FC = () => {
 	return (
-		<svg width="24px" height="24px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#000000">
-			<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+		<svg width="24px" height="24px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#000000">
+			<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 			<g id="SVGRepo_iconCarrier">
 				<path fill="#FFFFFFFFCC4D" d="M34 16c0 8.834-7.166 16-16 16c-8.836 0-16-7.166-16-16C2 7.164 9.164 0 18 0c8.834 0 16 7.164 16 16"></path>
 				<path fill="#FFFFFF" d="M25.861 16.129a.372.372 0 0 0-.535-.029c-.033.029-3.303 2.9-7.326 2.9c-4.013 0-7.293-2.871-7.326-2.9a.374.374 0 0 0-.535.029a.57.57 0 0 0-.079.628C10.168 16.972 12.769 22 18 22s7.833-5.028 7.94-5.243a.57.57 0 0 0-.079-.628z"></path>
