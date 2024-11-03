@@ -30,7 +30,7 @@ const CONFIG = {
           'bimasenaputra/flask-pdf-docx-converter-service', 
           'bimasenaputra/snippetbox',
           'bimasenaputra/search-engine',
-          'bimasenaputra/slu-auth-gateway',
+          'bimasenaputra/geosuggest',
           'bimasenaputra/blog-frontend'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
@@ -77,18 +77,18 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Lacak.io',
+      position: 'Backend Engineer',
+      from: 'November 2024',
+      to: 'Now',
+      companyLink: 'https://lacak.io/',
+    },
+    {
       company: 'Japan Advanced Institute of Science and Technology',
-      position: 'AI Research Intern',
+      position: 'Student Researcher',
       from: 'November 2023',
       to: 'March 2024',
       companyLink: 'https://www.jaist.ac.jp/english/',
-    },
-    {
-      company: 'Klinik Pintar',
-      position: 'Frontend Engineer Intern',
-      from: 'September 2023',
-      to: 'November 2023',
-      companyLink: 'https://klinikpintar.id/',
     },
     {
       company: 'Gojek (GoTo Group)',
@@ -119,7 +119,7 @@ const CONFIG = {
       title: 'MAG-BERT-ARL for Fair Automated Video Interview Assessment',
       conferenceName: '',
       journalName: 'IEEE Access',
-      authors: 'Bimasena Putra, Kurniawati Azizah, Candy Olivia Mawalim, Ikhlasul Akmal Hanif, Sakriani Sakti, Chee Wee Long, Shogo Okada',
+      authors: 'Bimasena Putra, Kurniawati Azizah, Candy Olivia Mawalim, Ikhlasul Akmal Hanif, Sakriani Sakti, Chen Wee Long, Shogo Okada',
       link: 'https://doi.org/10.1109/ACCESS.2024.3473314',
       description:
         'Fair Automated Video Interview Assessment without Sensitive Attributes',
