@@ -77,18 +77,18 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Lacak.io',
+      company: 'Astra Digital Mobil',
       position: 'Backend Engineer',
-      from: 'November 2024',
+      from: 'November 2025',
       to: 'Now',
-      companyLink: 'https://lacak.io/',
+      companyLink: 'https://www.olx.co.id/',
     },
     {
-      company: 'Japan Advanced Institute of Science and Technology',
-      position: 'Student Researcher',
-      from: 'November 2023',
-      to: 'March 2024',
-      companyLink: 'https://www.jaist.ac.jp/english/',
+      company: 'Virtue Digital Indonesia',
+      position: 'Backend Engineer',
+      from: 'November 2024',
+      to: 'November 2025',
+      companyLink: 'https://val.id/',
     },
     {
       company: 'Gojek (GoTo Group)',
